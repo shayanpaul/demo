@@ -1,0 +1,104 @@
+<!doctype html>
+<!-- Conditional comment for mobile ie7 blogs.msdn.com/b/iemobile/ -->
+<!--[if IEMobile 7 ]>    <html class="no-js iem7" lang="en">  <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html manifest="manifest.appcache">
+<head>
+  <meta charset="utf-8">
+  <title>Delta Beta Plane</title>
+  <meta name="description" content="">
+  <!-- Mobile viewport optimization h5bp.com/ad -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Home screen icon  Mathias Bynens mathiasbynens.be/notes/touch-icons -->
+  <!-- For iPhone 4 with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+  <!-- For first-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+  <!-- For nokia devices: -->
+  <link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  
+  <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+  <meta http-equiv="cleartype" content="on">
+
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="header">
+	    <h1 id="logo"><a href="#"></a></h1>
+	    <div class="facebook">
+	      <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.deltaideasinflight.com&layout=button_count" scrolling="no" frameborder="0" class="button_FB" allowTransparency="true"></iframe>
+	    </div>
+                  
+	    <a href="https://twitter.com/intent/tweet?text=I'm testing%20%23IdeasInFlight%20at%2030K%20feet%20onboard%20%40%20Delta!" class="twitter"></a>
+
+    </div>
+    
+    <div id="main" role="main">
+    	<div class="herobanner">
+	  <span class="heroheading">Welcome Aboard</span>
+	  <div class="subheadingwrapper">
+	    <div class="centerpusher">
+	    <div class="dash"></div><span class="herosubheading">Now testing new ideas</span><div class="dash"></div>
+	    </div>
+	  </div>
+	</div>
+    	<div class="sliderbase">
+    		<span class="title"></span>
+	    	<div id="slider">
+		    	<img width="220" height="209" rel="img1" title="Fresh Baked Cookies" src="img/cookies.png"/>
+		    	<img width="220" height="209" rel="img2" title="White Noice Channels" src="img/headphone.png"/>
+		    	<img width="220" height="209" rel="img3" title="Faster WiFi" src="img/gogo.png"/>
+			<img width="220" height="209" rel="img3" title="Entertainment on Demand" src="img/entertainment.png"/>
+			<img width="220" height="209" rel="img3" title="Enhanced in-Flight Entertainment" src="img/music.png"/>
+			<img width="220" height="209" rel="img3" title="Pre-Flight Greetings" src="img/mike.png"/>
+	    	</div>
+	    	<a id="prev" href="#"></a><a id="next" href="#"></a>
+	    	<input type="button" class="blue-btn homeView" value="View Experiment"/>
+    	</div>
+    	
+    	<ul class="navigation">
+	    	<li><a href="experimentlab.html">Experiment lab</a>
+	    	<li><a href="betaplane.html">Stories worth sharing</a>
+    	</ul>
+    	<div id="footer">
+	    	<ul>
+		    	<li><a href="#">delta.com</a></li>
+		    	<li><a href="#">Full site</a></li>
+	    	</ul>
+	    	<p>&copy 2012 Delta Air Lines, Inc.</p>
+    	</div>
+    	
+    	
+
+    </div>
+  </div> <!--! end of #container -->
+
+<div class="overlay"></div>
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab files async one by one -->
+  <script type="text/javascript">
+yepnope({
+  load: ['js/libs/jquery-1.7.1.min.js', 'js/helper.js', 'js/plugins.js', 'js/script.js', 'http://cloud.typography.com/753298/69596/css/fonts.css'],
+  complete: function (url, result, key) {
+    $('.overlay').fadeOut('fast');
+  }
+});
+  </script>
+</body>
+</html>
